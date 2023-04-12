@@ -8,7 +8,7 @@
 - Container should not have any file system it can store the data but it uses the host filesystem.
 
 
-![image-1681107295766.jpg7810461259719627187.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5f9f9b9-e5c7-4f54-a21e-6d8a9148f31a/image-1681107295766.jpg7810461259719627187.jpg)
+*  ![image-1681107295766.jpg7810461259719627187.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5f9f9b9-e5c7-4f54-a21e-6d8a9148f31a/image-1681107295766.jpg7810461259719627187.jpg)
 
 - Generally container is running where the docker stores the information is
 - 
