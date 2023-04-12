@@ -86,4 +86,4 @@ show databases;
 
 - Same data can share the multiple volumes also this the biggest avantage o
 
-- You can't loose the data by using
+- You can't loose the data by using.
