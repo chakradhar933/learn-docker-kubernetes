@@ -65,49 +65,49 @@ now image is created copy the image id.
 * Docker container : Docker container is a running instance of docker image.
 * container is a mini server.
 To create the container by using the command.
-```
+```bash
 docker create <image id>
 ```
 * copy the container id and start the conatiner.
 * To check the running containers by using the command.
-```
+```bash
 docker ps
 ```
 To check the all the container
-```
+```bash
 docker ps -a
 ```
 * To start the conatiner  
-```
+```bash
 docker start <container id>
 ```
 * To stop the container
-```
+```bash
 docker stop <container id>
 * To pull the images from Docker hub dirctly by using the command.
-```
+```bash
 docker pull <image name>:version
 ```
 * Docker run  : Docker pull + create + Start.
-```
+```bash
 docker run -d nginx
 ```
 * d : detach mode
 * p : To attach the port maping to conatiner.
-```
+```bash
 docker run -d -p <host port>:<container port> <image name>
 docker run -d -p 80:80 nginx
 ```
 * To delete the image 
-```
+```bash
 docker rmi -f <container id>
 ```
 * To delete the container.
-```
+```bash
 docker rm -f <container id>
 ```
 To login inside the container
-```
+```bash
 docker exec -it <container id> bash
 ```
 * ctrl+d to come out of the container.
